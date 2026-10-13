@@ -9,7 +9,7 @@ Histórico diário de indicadores econômicos coletados automaticamente da [API 
 | CDI diário | 0.050788 % a.d. | 2026-10-09 |
 | IPCA mensal | 0.82 % | 2026-09-01 |
 
-Última coleta: 2026-10-13 08:42 (horário de Brasília).
+Última coleta: 2026-10-13 08:49 (horário de Brasília).
 
 ## Como funciona
 
