@@ -1,0 +1,34 @@
+name: Coletar indicadores
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 21h em Brasília (00h UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Testes
+        run: python -m unittest -v
+
+      - name: Coletar
+        run: python coletar.py
+
+      - name: Commit
+        run: |
+          git config user.name "Guxta"
+          git config user.email "238871776+guxta-lima@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "dados: indicadores de $(TZ=America/Sao_Paulo date +%F)"
+          git push
