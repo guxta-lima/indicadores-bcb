@@ -5,3 +5,4 @@
 2026-10-16 23:15 dolar=ok selic=ok cdi=ok ipca=ok
 2026-10-17 23:15 dolar=ok selic=ok cdi=ok ipca=ok
 2026-10-18 23:31 dolar=falha(JSONDecodeError) selic=falha(JSONDecodeError) cdi=falha(JSONDecodeError) ipca=falha(JSONDecodeError)
+2026-10-19 23:44 dolar=ok selic=ok cdi=ok ipca=ok
