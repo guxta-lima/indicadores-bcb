@@ -4,12 +4,12 @@ Histórico diário de indicadores econômicos coletados automaticamente da [API 
 
 | Indicador | Valor | Referência |
 |---|---|---|
-| Dólar PTAX (venda) | 5.7324 R$ | 2026-11-16 |
-| Selic meta | 13.75 % a.a. | 2026-11-17 |
-| CDI diário | 0.050788 % a.d. | 2026-11-13 |
+| Dólar PTAX (venda) | 5.7851 R$ | 2026-11-17 |
+| Selic meta | 13.75 % a.a. | 2026-11-18 |
+| CDI diário | 0.050788 % a.d. | 2026-11-16 |
 | IPCA mensal | 0.14 % | 2026-10-01 |
 
-Última coleta: 2026-11-17 02:49 (horário de Brasília).
+Última coleta: 2026-11-18 02:15 (horário de Brasília).
 
 ## Como funciona
 
